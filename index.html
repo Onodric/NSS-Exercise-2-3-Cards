@@ -5,62 +5,135 @@
       <meta name="description" content="products">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Jimmy's Jollies</title>
-      <link rel="stylesheet" href="css/styles.css">
       <link rel="author" href="Ben Marks">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header>
+    <header class="brand">
       <h1>Products</h1>
     </header>
 <!-- Your task is to build a grid of cards for a company's products. Here are the requirements for the basic structure of the cards. -->
 
+<div class="container">
 <!-- 1. Each card should be an `article`. -->
     <article class="card">
-<!-- 1. Each product should contain a `header` element -->
-      <header>
-<!-- that contains an `h2` element where the product's title will be written. -->
-        <h2>cardtitle</h2>
-      </header>
-<!-- 1. Each product should have three sections. -->
-      <section>
-<!-- 1. The first section should contain three child block elements. -->
-    <!-- 1. The first element contains the product image. -->
-    <!-- 1. The second element contains the product description. -->
-    <!-- 1. The third element contains the product availability (e.g. "Available" or "Not Available") -->
-        <img src="images/#" alt="product" class="img-product">
-        <p class="desc-text">description</p>
-        <p class="in-stock">availability</p>
-      </section>
-      <section class="specs">
-<!-- 1. The second section contains product specifications. -->
-    <!-- 1. This section should have a header containing the word "Specifications" -->
+      <div class="container">
+  <!-- 1. Each product should contain a `header` element -->
         <header>
-          <h3>Specifications</h3>
+  <!-- that contains an `h2` element where the product's title will be written. -->
+          <h2>cardtitle</h2>
         </header>
-    <!-- 1. This section should contain two block elements -->
-    <!-- 1. The first block element specifies the size. -->
-        <p>Size</p>
-    <!-- 1. The second block element specifies the weight. -->
-        <p>Weight</p>
-    <!-- 1. This section should contain a footer. -->
-        <footer>
-    <!-- 1. The footer contains text stating when the product specifications become invalid. -->
-          <p>Expiration Date</p>
-        </footer>
-      </section>
-      <section>
-<!-- 1. The third section contains the product pricing. -->
-    <!-- 1. This section should contain a header. -->
-        <header>
-          <h3>Pricing</h3>
-        </header>
-    <!-- 1. This section should contain three block elements. -->
-    <!-- 1. Each block element contains information about the price for different quantities. -->
-        <p>pricefor1</p>
-        <p>pricefor1to10</p>
-        <p>pricefor10+</p>
-      </section>
+  <!-- 1. Each product should have three sections. -->
+        <section>
+  <!-- 1. The first section should contain three child block elements. -->
+      <!-- 1. The first element contains the product image. -->
+      <!-- 1. The second element contains the product description. -->
+      <!-- 1. The third element contains the product availability (e.g. "Available" or "Not Available") -->
+          <img src="images/brillo-pad.jpg" alt="product" class="img-product">
+          <p class="desc-text">description</p>
+          <p class="in-stock">availability</p>
+        </section>
+        <section class="specs">
+  <!-- 1. The second section contains product specifications. -->
+      <!-- 1. This section should have a header containing the word "Specifications" -->
+          <header>
+            <h3>Specifications</h3>
+          </header>
+      <!-- 1. This section should contain two block elements -->
+      <!-- 1. The first block element specifies the size. -->
+          <p>Size</p>
+      <!-- 1. The second block element specifies the weight. -->
+          <p>Weight</p>
+      <!-- 1. This section should contain a footer. -->
+          <footer>
+      <!-- 1. The footer contains text stating when the product specifications become invalid. -->
+            <p>Expiration Date</p>
+          </footer>
+        </section>
+        <section class="pricing">
+  <!-- 1. The third section contains the product pricing. -->
+      <!-- 1. This section should contain a header. -->
+          <header>
+            <h3>Pricing</h3>
+          </header>
+      <!-- 1. This section should contain three block elements. -->
+      <!-- 1. Each block element contains information about the price for different quantities. -->
+          <p>pricefor1</p>
+          <p>pricefor1to10</p>
+          <p>pricefor10+</p>
+        </section>
+      </div>
+      <!-- End of container div -->
     </article>
+    <!-- End of Card 1 -->
+
+    <article class="card">
+      <div class="container">
+        <header>
+          <h2>cardtitle</h2>
+        </header>
+        <section>
+          <img src="images/cornchips.jpg" alt="product" class="img-product">
+          <p class="desc-text">description</p>
+          <p class="in-stock">availability</p>
+        </section>
+        <section class="specs">
+          <header>
+            <h3>Specifications</h3>
+          </header>
+          <p>Size</p>
+          <p>Weight</p>
+          <footer>
+            <p>Expiration Date</p>
+          </footer>
+        </section>
+        <section class="pricing">
+          <header>
+            <h3>Pricing</h3>
+          </header>
+          <p>pricefor1</p>
+          <p>pricefor1to10</p>
+          <p>pricefor10+</p>
+        </section>
+      </div>
+      <!-- End of .container -->
+    </article>
+    <!-- End of Card 2 -->
+
+    <article class="card">
+      <div class="container">
+        <header>
+          <h2>cardtitle</h2>
+        </header>
+        <section>
+          <img src="images/rabbit.jpg" alt="product" class="img-product">
+          <p class="desc-text">description</p>
+          <p class="in-stock">availability</p>
+        </section>
+        <section class="specs">
+          <header>
+            <h3>Specifications</h3>
+          </header>
+          <p>Size</p>
+          <p>Weight</p>
+          <footer>
+            <p>Expiration Date</p>
+          </footer>
+        </section>
+        <section class="pricing">
+          <header>
+            <h3>Pricing</h3>
+          </header>
+          <p>pricefor1</p>
+          <p>pricefor1to10</p>
+          <p>pricefor10+</p>
+        </section>
+      </div>
+      <!-- End of .container -->
+    </article>
+    <!-- End of Card 3 -->
+</div>
     <!-- <script src="js/main.js"></script> -->
   </body>
 </html>
