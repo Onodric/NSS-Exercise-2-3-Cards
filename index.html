@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="products">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Jimmy's Jollies</title>
+      <link rel="author" href="Ben Marks">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="brand">
+      <!-- <h1>Products</h1> -->
+    </header>
+<!-- Your task is to build a grid of cards for a company's products. Here are the requirements for the basic structure of the cards. -->
+
+<div class="container">
+<!-- 1. Each card should be an `article`. -->
+    <article class="card">
+      <div class="container">
+  <!-- 1. Each product should contain a `header` element -->
+        <header>
+  <!-- that contains an `h2` element where the product's title will be written. -->
+          <h1>Widget 3000</h1>
+        </header>
+  <!-- 1. Each product should have three sections. -->
+        <section>
+  <!-- 1. The first section should contain three child block elements. -->
+      <!-- 1. The first element contains the product image. -->
+      <!-- 1. The second element contains the product description. -->
+      <!-- 1. The third element contains the product availability (e.g. "Available" or "Not Available") -->
+          <img src="images/image1.svg" alt="product" class="img-product">
+          <p class="desc-text">The latest in lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="in-stock">Available</p>
+        </section>
+        <section class="specs">
+  <!-- 1. The second section contains product specifications. -->
+      <!-- 1. This section should have a header containing the word "Specifications" -->
+          <header>
+            <h3>Specifications</h3>
+          </header>
+      <!-- 1. This section should contain two block elements -->
+      <!-- 1. The first block element specifies the size. -->
+          <p>Size: 2" L x 6" W x 450" H</p>
+      <!-- 1. The second block element specifies the weight. -->
+          <p>Weight: 538 lbs.</p>
+      <!-- 1. This section should contain a footer. -->
+          <footer>
+      <!-- 1. The footer contains text stating when the product specifications become invalid. -->
+            <p>Product specifications valid until: October 10, 2016</p>
+          </footer>
+        </section>
+        <section class="pricing">
+  <!-- 1. The third section contains the product pricing. -->
+      <!-- 1. This section should contain a header. -->
+          <header>
+            <h3>Pricing</h3>
+          </header>
+      <!-- 1. This section should contain three block elements. -->
+      <!-- 1. Each block element contains information about the price for different quantities. -->
+          <p>1: $699.98</p>
+          <p>2-10: $669.98</p>
+          <p>11+: $639.98</p>
+        </section>
+      </div>
+      <!-- End of container div -->
+    </article>
+    <!-- End of Card 1 -->
+
+    <article class="card">
+      <div class="container">
+        <header>
+          <h1>Little Widget</h1>
+        </header>
+        <section>
+          <img src="images/image2.svg" alt="product" class="img-product">
+          <p class="desc-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat, only smaller!</p>
+          <p class="in-stock">Available</p>
+        </section>
+        <section class="specs">
+          <header>
+            <h3>Specifications</h3>
+          </header>
+          <p>Size: 6" L x 24" W x 72" H</p>
+          <p>Weight: 23,567 lbs.</p>
+          <footer>
+            <p>Product specifications valid until: October 10, 2016</p>
+          </footer>
+        </section>
+        <section class="pricing">
+          <header>
+            <h3>Pricing</h3>
+          </header>
+          <p>1: $799.98</p>
+          <p>2 - 10: $739.98</p>
+          <p>11+: $44.98</p>
+        </section>
+      </div>
+      <!-- End of .container -->
+    </article>
+    <!-- End of Card 2 -->
+
+    <article class="card">
+      <div class="container">
+        <header>
+          <h1>Widget v.1</h1>
+        </header>
+        <section>
+          <img src="images/image3.svg" alt="product" class="img-product">
+          <p class="desc-text">The original lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="in-stock">Available</p>
+        </section>
+        <section class="specs">
+          <header>
+            <h3>Specifications</h3>
+          </header>
+          <p>Size: 45" L x 48" W x 3" H</p>
+          <p>Weight: 11 oz.</p>
+          <footer>
+            <p>Product specifications valid until: October 10, 2016</p>
+          </footer>
+        </section>
+        <section class="pricing">
+          <header>
+            <h3>Pricing</h3>
+          </header>
+          <p>1: $7,999.98</p>
+          <p>2 - 10: $6,999.98</p>
+          <p>11+: $ 2.99</p>
+        </section>
+      </div>
+      <!-- End of .container -->
+    </article>
+    <!-- End of Card 3 -->
+
+    <article class="card">
+      <div class="container">
+        <header>
+          <h1>OOS Widget</h1>
+        </header>
+        <section>
+          <img src="images/image4.svg" alt="product" class="img-product">
+          <p class="desc-text">The most useful lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="out-of-stock">Unavailable</p>
+        </section>
+        <section class="specs">
+          <header>
+            <h3>Specifications</h3>
+          </header>
+          <p>Size: 2" L x 2" W x 3" H</p>
+          <p>Weight: 30 lbs.</p>
+          <footer>
+            <p>Product specifications valid until: October 10, 2016</p>
+          </footer>
+        </section>
+        <section class="pricing">
+          <header>
+            <h3>Pricing</h3>
+          </header>
+          <p>1: $999.98</p>
+          <p>2 - 10: $899.98</p>
+          <p>11+: $ 799.98</p>
+        </section>
+      </div>
+      <!-- End of .container -->
+    </article>
+    <!-- End of Card 4 -->
+
+    <article class="card">
+      <div class="container">
+        <header>
+          <h1>OOS Widget v.324</h1>
+        </header>
+        <section>
+          <img src="images/image5.svg" alt="product" class="img-product">
+          <p class="desc-text">The most useful lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="out-of-stock">Government Permits Pending</p>
+        </section>
+        <section class="specs">
+          <header>
+            <h3>Specifications</h3>
+          </header>
+          <p>Size: 1" L x 1" W x 1" H</p>
+          <p>Weight: 30,000,000 lbs.</p>
+          <footer>
+            <p>Product specifications valid until: October 10, 2016</p>
+          </footer>
+        </section>
+        <section class="pricing">
+          <header>
+            <h3>Pricing</h3>
+          </header>
+          <p>1: $1.98</p>
+          <p>2 - 10: $1.48</p>
+          <p>11+: $ 0.98</p>
+        </section>
+      </div>
+      <!-- End of .container -->
+    </article>
+    <!-- End of Card 5 -->
+</div>
+    <!-- <script src="js/main.js"></script> -->
+  </body>
+</html>
